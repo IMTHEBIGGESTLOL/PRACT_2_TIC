@@ -25,4 +25,4 @@ jobs:
           subject: "Cambios en la rama ${{ github.ref_name }}"
           body: "Se han subido cambios a la rama ${{ github.ref_name }} del repositorio."
           to: "githubactiones@gmail.com"
-          from: "${{ secrets.EMAIL_USERNAME }}"
+          from: "githubactiones@gmail.com"
