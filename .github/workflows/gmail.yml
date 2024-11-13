@@ -24,5 +24,5 @@ jobs:
           # Configuración del correo
           subject: "Cambios en la rama ${{ github.ref_name }}"
           body: "Se han subido cambios a la rama ${{ github.ref_name }} del repositorio."
-          to: "githubactiones@gmail.com"
-          from: "githubactiones@gmail.com"
+          to: "${{ secrets.EMAIL_USERNAME }}"
+          from: "${{ secrets.EMAIL_USERNAME }}"
